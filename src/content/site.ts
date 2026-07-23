@@ -7,8 +7,8 @@
 export const site = {
   autor: {
     nombre: "Dr. Isaías Ramos Guzmán",
-    bio: "TODO: biografía corta del autor (3-4 líneas). Pendiente de recibir el texto final.",
-    fotoUrl: "/placeholders/autor.jpg", // TODO: reemplazar con foto real del autor
+    bio: "Isaías Ramos Guzmán nació en Jababa, Moca. Médico graduado en 1982, ha desarrollado una trayectoria vinculada a distintos ámbitos de la vida productiva nacional, lo que le ha permitido comprender con profundidad los desafíos estructurales de la República Dominicana y articular una visión integral de desarrollo. En 2009 fundó el Foro Cívico y Social, hoy Fundación, desde donde impulsa formación ciudadana basada en principios y valores patrios. En 2018 promovió el Frente Cívico y Social, articulando a nivel nacional la defensa del Estado de derecho y el fortalecimiento institucional. Defiende que el progreso sostenible exige instituciones fuertes, reglas claras y responsabilidad compartida. El futuro no se improvisa: se construye con orden, justicia y determinación.",
+    fotoUrl: "/placeholders/autor.jpg", // TODO: reemplazar con foto real del autor (pendiente de subida)
     redes: [
       { nombre: "Instagram", url: "https://instagram.com/" }, // TODO: enlace real
       { nombre: "Facebook", url: "https://facebook.com/" }, // TODO: enlace real
@@ -16,13 +16,15 @@ export const site = {
     ],
   },
   libro: {
-    titulo: "TODO: Título del Libro",
+    titulo: "La Cultura del Deber",
+    subtitulo:
+      "Formación ciudadana, urbanidad y verdad pública para reconstruir la República",
     fraseBienvenida: "Gracias por escanear el código y llegar hasta aquí.",
     sinopsis:
       "TODO: sinopsis breve del libro (1-2 párrafos). Pendiente de recibir el texto final.",
-    datosEdicion: "TODO: editorial, año, número de páginas, ISBN si aplica.",
+    datosEdicion: "Fundación Foro Cívico y Social.", // TODO: agregar año, páginas, ISBN si aplica.
     citaDestacada: "TODO: fragmento o cita destacada del libro (opcional).",
-    portadaUrl: "/placeholders/portada.jpg", // TODO: reemplazar con la portada real
+    portadaUrl: "/portada.jpg",
   },
   video: {
     // TODO: reemplazar con el ID real del video de YouTube (no listado) o Vimeo

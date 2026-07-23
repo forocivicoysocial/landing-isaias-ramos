@@ -19,6 +19,11 @@ export default function Hero() {
       <h1 className="font-serif text-3xl sm:text-4xl leading-tight max-w-md">
         {site.libro.titulo}
       </h1>
+      {site.libro.subtitulo && (
+        <p className="font-sans text-sm max-w-sm text-dignity mt-3">
+          {site.libro.subtitulo}
+        </p>
+      )}
       <div className="divider-gold my-6" />
       <p className="font-sans text-base max-w-sm text-clarity/90">
         {site.libro.fraseBienvenida}
