@@ -10,9 +10,9 @@ export const site = {
     bio: "Isaías Ramos Guzmán nació en Jababa, Moca. Médico graduado en 1982, ha desarrollado una trayectoria vinculada a distintos ámbitos de la vida productiva nacional, lo que le ha permitido comprender con profundidad los desafíos estructurales de la República Dominicana y articular una visión integral de desarrollo. En 2009 fundó el Foro Cívico y Social, hoy Fundación, desde donde impulsa formación ciudadana basada en principios y valores patrios. En 2018 promovió el Frente Cívico y Social, articulando a nivel nacional la defensa del Estado de derecho y el fortalecimiento institucional. Defiende que el progreso sostenible exige instituciones fuertes, reglas claras y responsabilidad compartida. El futuro no se improvisa: se construye con orden, justicia y determinación.",
     fotoUrl: "/autor.jpg",
     redes: [
-      { nombre: "Instagram", url: "https://instagram.com/" }, // TODO: enlace real
-      { nombre: "Facebook", url: "https://facebook.com/" }, // TODO: enlace real
-      { nombre: "X", url: "https://x.com/" }, // TODO: enlace real
+      { nombre: "Instagram", url: "https://www.instagram.com/dr.isaiasramos/" },
+      { nombre: "Facebook", url: "https://www.facebook.com/share/18pn8ikMXg/" },
+      { nombre: "X", url: "https://x.com/isaiasramosrd" },
     ],
   },
   libro: {
