@@ -20,10 +20,17 @@ export const site = {
     subtitulo:
       "Formación ciudadana, urbanidad y verdad pública para reconstruir la República",
     fraseBienvenida: "Gracias por escanear el código y llegar hasta aquí.",
-    sinopsis:
-      "TODO: sinopsis breve del libro (1-2 párrafos). Pendiente de recibir el texto final.",
+    sinopsis: `Las naciones no siempre se deterioran primero por un gran colapso.
+
+No siempre empiezan a caer por una guerra, una bancarrota, una ruptura constitucional espectacular o un hecho único que pueda señalarse con el dedo y con fecha exacta. A veces comienzan a debilitarse de una manera más lenta, más silenciosa y, por eso mismo, más peligrosa. Se debilitan cuando la vida común pierde forma. Cuando el respeto deja de sentirse obligatorio. Cuando la palabra pesa menos. Cuando la verdad compite en desventaja frente al rumor. Cuando la autoridad ya no logra ser vista ni como legítima ni como confiable. Cuando la escuela instruye, pero forma poco. Cuando la familia resiste, pero cada vez más sola. Cuando la calle enseña imposición. Cuando el deber empieza a sonar anticuado y la libertad empieza a confundirse con capricho.
+
+Ese es el tipo de desgaste que este libro quiere nombrar.
+
+No porque sea el único problema dominicano. No porque toda la crisis nacional pueda reducirse a una cuestión moral o cívica. No porque los desafíos económicos, institucionales y sociales hayan dejado de importar.
+
+Sino porque existe una verdad que el país ha preferido mirar solo por fragmentos: la República Dominicana no enfrenta únicamente problemas de gestión, de política pública o de administración del Estado. Enfrenta también un problema más hondo y más decisivo: un problema de formación republicana.`,
     datosEdicion: "Fundación Foro Cívico y Social.", // TODO: agregar año, páginas, ISBN si aplica.
-    citaDestacada: "TODO: fragmento o cita destacada del libro (opcional).",
+    citaDestacada: "Ese es el corazón del libro.",
     portadaUrl: "/portada.jpg",
   },
   video: {
@@ -33,10 +40,8 @@ export const site = {
     titulo: "Un mensaje del autor para ti",
   },
   compra: [
-    // TODO: completar y confirmar con el autor los canales de venta reales.
-    { nombre: "Tienda propia", url: "#", destacado: true },
-    { nombre: "Amazon", url: "#", destacado: false },
-    { nombre: "Librería física", url: "#", destacado: false },
+    { nombre: "Cuestalibros.com", url: "https://www.cuestalibros.com/5056305459", destacado: true },
+    { nombre: "Editora Santuario (WhatsApp)", url: "https://wa.me/18094457784", destacado: false },
   ],
   contacto: {
     email: "frentecivicoysocial@outlook.com",
