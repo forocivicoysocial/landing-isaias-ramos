@@ -34,10 +34,10 @@ Sino porque existe una verdad que el país ha preferido mirar solo por fragmento
     portadaUrl: "/portada.jpg",
   },
   video: {
-    // TODO: reemplazar con el ID real del video de YouTube (no listado) o Vimeo
     proveedor: "youtube" as "youtube" | "vimeo",
-    id: "dQw4w9WgXcQ",
+    id: "gH22LyFzfjs",
     titulo: "Un mensaje del autor para ti",
+    vertical: true, // el video es un YouTube Short (formato 9:16)
   },
   compra: [
     { nombre: "Cuestalibros.com", url: "https://www.cuestalibros.com/5056305459", destacado: true },

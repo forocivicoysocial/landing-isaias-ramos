@@ -4,7 +4,7 @@ import { site } from "@/content/site";
 export default function Hero() {
   return (
     <section className="bg-institutional text-clarity min-h-[100svh] flex flex-col items-center justify-center text-center px-6 py-16">
-      <div className="w-36 h-52 relative mb-8 shadow-xl">
+      <div className="w-[9.9rem] h-[14.3rem] relative mb-8 shadow-xl">
         <Image
           src={site.libro.portadaUrl}
           alt={`Portada de ${site.libro.titulo}`}

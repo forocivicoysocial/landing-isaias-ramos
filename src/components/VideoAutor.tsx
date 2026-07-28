@@ -19,7 +19,9 @@ export default function VideoAutor() {
         </p>
         <h2 className="font-serif text-2xl mb-8">{site.video.titulo}</h2>
         <div
-          className="relative w-full aspect-video border border-dignity/40 shadow-lg"
+          className={`relative w-full border border-dignity/40 shadow-lg ${
+            site.video.vertical ? "aspect-[9/16] max-w-xs mx-auto" : "aspect-video"
+          }`}
           onClick={() => track("video_play_click")}
         >
           <iframe
